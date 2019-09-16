@@ -1,0 +1,82 @@
+body{
+    background-color: #323436;
+
+}
+
+h2{
+    text-align: right;
+    color: #f2f0eb;
+}
+
+
+p {
+
+    font-family: monospace;
+
+    color: #c97d9e;
+
+
+}
+
+div {
+    background-color: #ba91b0;
+    display: absolute;
+    top: 50%;
+    left: 50%
+
+}
+
+#third-div{
+    font-size: 50px;
+    color:#8ba0b5;
+    background-color: black;
+    border-radius: 20px;
+
+}
+/* fixed for position make it stay there */
+#artist1{
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline;
+    font-size: 30px;
+    transition: 1000ms;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    opacity: 0.2;
+
+}
+
+#artist1:hover{
+    background-color: #81ccba;
+
+}
+
+a{
+    transition: 1000ms;
+    cursor: crosshair;
+}
+
+a:hover{
+    color: #8ba0b5;
+    font-size: 40px;s
+}
+
+#olia{
+    width:50%;
+    opacity: 0.1;
+    transition: 500ms;
+
+}
+
+#olia:hover{
+    width:100%;
+    opacity: 1;
+}
+
+img{
+    width:75%
+
+}
+
+
