@@ -60,15 +60,15 @@ div {
 
 }
 
-a{
+/* a{
     transition: 1000ms;
     cursor: crosshair;
 }
 
 a:hover{
     color: #8ba0b5;
-    font-size: 40px;s
-}
+    font-size: 40px;
+} */
 
 #olia{
     width:50%;
@@ -142,4 +142,28 @@ img{
     left: 50%;
     font-family: monospace;
     text-align: center;
+}
+
+#out{
+    position: fixed;
+    top: 70%;
+    left: 95%;
+    height: 50px;
+    width: 50px;
+    background-color: #f0e1b6;
+
+}
+
+#out:hover{
+    background-color: #e6aba5;
+}
+
+#jump{
+    transition: 1000ms;
+    cursor: crosshair;
+}
+
+#jump:hover{
+    color: #f0e1b6;
+    font-size: 40px;
 }
