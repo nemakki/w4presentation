@@ -8,6 +8,9 @@ h2{
     color: #f2f0eb;
 }
 
+h3{
+    font-family: monospace;
+}
 
 p {
 
@@ -18,11 +21,16 @@ p {
 
 }
 
+#orthis{
+    text-align: right;
+}
+
 div {
     background-color: #ba91b0;
     display: absolute;
     top: 50%;
-    left: 50%
+    left: 50%;
+    font-family: monospace;
 
 }
 
@@ -74,9 +82,62 @@ a:hover{
     opacity: 1;
 }
 
-img{
-    width:75%
+#star{
+    width:50%;
+    opacity: 0.1;
+    transition: 500ms;
 
 }
 
+#star:hover{
+    width:100%;
+    opacity: 1;
+}
 
+img{
+    width:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#oliatext{
+    text-align: center
+
+}
+
+#starintro{
+    font-family: monospace;
+    color:#91b8b1;
+    text-align: right
+}
+
+#startext0{
+    font-family: monospace;
+    color:#91b8b1;
+}
+
+#starintrodiv{
+    background-color: #91b8b1;
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: monospace;
+}
+
+#startext1{
+    background-color: #91b8b1;
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: monospace;
+}
+
+#startext2{
+    background-color: #91b8b1;
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: monospace;
+}
